@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFAE1533185A5F75008281EA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAE1532185A5F75008281EA /* Cocoa.framework */; };
+		EFAE153D185A5F75008281EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFAE153B185A5F75008281EA /* InfoPlist.strings */; };
+		EFAE153F185A5F75008281EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAE153E185A5F75008281EA /* main.m */; };
+		EFAE1543185A5F75008281EA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EFAE1541185A5F75008281EA /* Credits.rtf */; };
+		EFAE1546185A5F75008281EA /* JCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAE1545185A5F75008281EA /* JCAppDelegate.m */; };
+		EFAE1549185A5F75008281EA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFAE1547185A5F75008281EA /* MainMenu.xib */; };
+		EFAE154B185A5F75008281EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAE154A185A5F75008281EA /* Images.xcassets */; };
+		EFAE1552185A5F75008281EA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAE1551185A5F75008281EA /* XCTest.framework */; };
+		EFAE1553185A5F75008281EA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAE1532185A5F75008281EA /* Cocoa.framework */; };
+		EFAE155B185A5F75008281EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFAE1559185A5F75008281EA /* InfoPlist.strings */; };
+		EFAE155D185A5F75008281EA /* JCWaveFormImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAE155C185A5F75008281EA /* JCWaveFormImageTests.m */; };
+		EFAE1567185A5F85008281EA /* example_sound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EFAE1566185A5F85008281EA /* example_sound.m4a */; };
+		EFAE1577185A6034008281EA /* JCWaveFormImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAE1576185A6034008281EA /* JCWaveFormImage.m */; };
+		EFAE1579185A60D0008281EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAE1578185A60D0008281EA /* AVFoundation.framework */; };
+		EFAE157B185A65F0008281EA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAE157A185A65F0008281EA /* QuartzCore.framework */; };
+		EFAE157D185A65F6008281EA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAE157C185A65F6008281EA /* CoreMedia.framework */; };
+		EFAE1580185A6626008281EA /* JCWaveFormImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAE157F185A6626008281EA /* JCWaveFormImageView.m */; };
+		EFAE1584185A6AB0008281EA /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAE1583185A6AB0008281EA /* Profile.m */; };
+		EFE5472E18611DEA00D9F953 /* poppa-santa-claus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EFE5472D18611DEA00D9F953 /* poppa-santa-claus.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFAE1554185A5F75008281EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAE1527185A5F75008281EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAE152E185A5F75008281EA;
+			remoteInfo = JCWaveFormImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFAE152F185A5F75008281EA /* JCWaveFormImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCWaveFormImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAE1532185A5F75008281EA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EFAE1535185A5F75008281EA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EFAE1536185A5F75008281EA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EFAE1537185A5F75008281EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFAE153A185A5F75008281EA /* JCWaveFormImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JCWaveFormImage-Info.plist"; sourceTree = "<group>"; };
+		EFAE153C185A5F75008281EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFAE153E185A5F75008281EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFAE1540185A5F75008281EA /* JCWaveFormImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JCWaveFormImage-Prefix.pch"; sourceTree = "<group>"; };
+		EFAE1542185A5F75008281EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EFAE1544185A5F75008281EA /* JCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCAppDelegate.h; sourceTree = "<group>"; };
+		EFAE1545185A5F75008281EA /* JCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCAppDelegate.m; sourceTree = "<group>"; };
+		EFAE1548185A5F75008281EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EFAE154A185A5F75008281EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFAE1550185A5F75008281EA /* JCWaveFormImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCWaveFormImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAE1551185A5F75008281EA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EFAE1558185A5F75008281EA /* JCWaveFormImageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JCWaveFormImageTests-Info.plist"; sourceTree = "<group>"; };
+		EFAE155A185A5F75008281EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFAE155C185A5F75008281EA /* JCWaveFormImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCWaveFormImageTests.m; sourceTree = "<group>"; };
+		EFAE1566185A5F85008281EA /* example_sound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = example_sound.m4a; sourceTree = "<group>"; };
+		EFAE156F185A601C008281EA /* DSWaveformImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSWaveformImage.h; sourceTree = "<group>"; };
+		EFAE1570185A601C008281EA /* DSWaveformImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSWaveformImage.m; sourceTree = "<group>"; };
+		EFAE1571185A601C008281EA /* DSWaveformImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSWaveformImageView.h; sourceTree = "<group>"; };
+		EFAE1572185A601C008281EA /* DSWaveformImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSWaveformImageView.m; sourceTree = "<group>"; };
+		EFAE1575185A6034008281EA /* JCWaveFormImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCWaveFormImage.h; sourceTree = "<group>"; };
+		EFAE1576185A6034008281EA /* JCWaveFormImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCWaveFormImage.m; sourceTree = "<group>"; };
+		EFAE1578185A60D0008281EA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EFAE157A185A65F0008281EA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EFAE157C185A65F6008281EA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EFAE157E185A6626008281EA /* JCWaveFormImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCWaveFormImageView.h; sourceTree = "<group>"; };
+		EFAE157F185A6626008281EA /* JCWaveFormImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCWaveFormImageView.m; sourceTree = "<group>"; };
+		EFAE1581185A6AB0008281EA /* ICC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICC.h; sourceTree = "<group>"; };
+		EFAE1582185A6AB0008281EA /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		EFAE1583185A6AB0008281EA /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		EFE5472D18611DEA00D9F953 /* poppa-santa-claus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "poppa-santa-claus.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFAE152C185A5F75008281EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAE157D185A65F6008281EA /* CoreMedia.framework in Frameworks */,
+				EFAE157B185A65F0008281EA /* QuartzCore.framework in Frameworks */,
+				EFAE1579185A60D0008281EA /* AVFoundation.framework in Frameworks */,
+				EFAE1533185A5F75008281EA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAE154D185A5F75008281EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAE1553185A5F75008281EA /* Cocoa.framework in Frameworks */,
+				EFAE1552185A5F75008281EA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFAE1526185A5F75008281EA = {
+			isa = PBXGroup;
+			children = (
+				EFAE1568185A5FDF008281EA /* JCWaveFormImage */,
+				EFAE1538185A5F75008281EA /* JCWaveFormImageDemo */,
+				EFAE1556185A5F75008281EA /* JCWaveFormImageTests */,
+				EFAE1531185A5F75008281EA /* Frameworks */,
+				EFAE1530185A5F75008281EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFAE1530185A5F75008281EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE152F185A5F75008281EA /* JCWaveFormImage.app */,
+				EFAE1550185A5F75008281EA /* JCWaveFormImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFAE1531185A5F75008281EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE157C185A65F6008281EA /* CoreMedia.framework */,
+				EFAE157A185A65F0008281EA /* QuartzCore.framework */,
+				EFAE1578185A60D0008281EA /* AVFoundation.framework */,
+				EFAE1532185A5F75008281EA /* Cocoa.framework */,
+				EFAE1551185A5F75008281EA /* XCTest.framework */,
+				EFAE1534185A5F75008281EA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFAE1534185A5F75008281EA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE1535185A5F75008281EA /* AppKit.framework */,
+				EFAE1536185A5F75008281EA /* CoreData.framework */,
+				EFAE1537185A5F75008281EA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EFAE1538185A5F75008281EA /* JCWaveFormImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE1544185A5F75008281EA /* JCAppDelegate.h */,
+				EFAE1545185A5F75008281EA /* JCAppDelegate.m */,
+				EFAE1547185A5F75008281EA /* MainMenu.xib */,
+				EFAE154A185A5F75008281EA /* Images.xcassets */,
+				EFAE1539185A5F75008281EA /* Supporting Files */,
+			);
+			path = JCWaveFormImageDemo;
+			sourceTree = "<group>";
+		};
+		EFAE1539185A5F75008281EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFE5472D18611DEA00D9F953 /* poppa-santa-claus.mp3 */,
+				EFAE1566185A5F85008281EA /* example_sound.m4a */,
+				EFAE153A185A5F75008281EA /* JCWaveFormImage-Info.plist */,
+				EFAE153B185A5F75008281EA /* InfoPlist.strings */,
+				EFAE153E185A5F75008281EA /* main.m */,
+				EFAE1540185A5F75008281EA /* JCWaveFormImage-Prefix.pch */,
+				EFAE1541185A5F75008281EA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFAE1556185A5F75008281EA /* JCWaveFormImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE155C185A5F75008281EA /* JCWaveFormImageTests.m */,
+				EFAE1557185A5F75008281EA /* Supporting Files */,
+			);
+			path = JCWaveFormImageTests;
+			sourceTree = "<group>";
+		};
+		EFAE1557185A5F75008281EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE1558185A5F75008281EA /* JCWaveFormImageTests-Info.plist */,
+				EFAE1559185A5F75008281EA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFAE1568185A5FDF008281EA /* JCWaveFormImage */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE1581185A6AB0008281EA /* ICC.h */,
+				EFAE1582185A6AB0008281EA /* Profile.h */,
+				EFAE1583185A6AB0008281EA /* Profile.m */,
+				EFAE156F185A601C008281EA /* DSWaveformImage.h */,
+				EFAE1570185A601C008281EA /* DSWaveformImage.m */,
+				EFAE1571185A601C008281EA /* DSWaveformImageView.h */,
+				EFAE1572185A601C008281EA /* DSWaveformImageView.m */,
+				EFAE1575185A6034008281EA /* JCWaveFormImage.h */,
+				EFAE1576185A6034008281EA /* JCWaveFormImage.m */,
+				EFAE157E185A6626008281EA /* JCWaveFormImageView.h */,
+				EFAE157F185A6626008281EA /* JCWaveFormImageView.m */,
+			);
+			path = JCWaveFormImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFAE152E185A5F75008281EA /* JCWaveFormImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAE1560185A5F75008281EA /* Build configuration list for PBXNativeTarget "JCWaveFormImage" */;
+			buildPhases = (
+				EFAE152B185A5F75008281EA /* Sources */,
+				EFAE152C185A5F75008281EA /* Frameworks */,
+				EFAE152D185A5F75008281EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCWaveFormImage;
+			productName = JCWaveFormImage;
+			productReference = EFAE152F185A5F75008281EA /* JCWaveFormImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFAE154F185A5F75008281EA /* JCWaveFormImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAE1563185A5F75008281EA /* Build configuration list for PBXNativeTarget "JCWaveFormImageTests" */;
+			buildPhases = (
+				EFAE154C185A5F75008281EA /* Sources */,
+				EFAE154D185A5F75008281EA /* Frameworks */,
+				EFAE154E185A5F75008281EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAE1555185A5F75008281EA /* PBXTargetDependency */,
+			);
+			name = JCWaveFormImageTests;
+			productName = JCWaveFormImageTests;
+			productReference = EFAE1550185A5F75008281EA /* JCWaveFormImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFAE1527185A5F75008281EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Pretty Great";
+				TargetAttributes = {
+					EFAE154F185A5F75008281EA = {
+						TestTargetID = EFAE152E185A5F75008281EA;
+					};
+				};
+			};
+			buildConfigurationList = EFAE152A185A5F75008281EA /* Build configuration list for PBXProject "JCWaveFormImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFAE1526185A5F75008281EA;
+			productRefGroup = EFAE1530185A5F75008281EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFAE152E185A5F75008281EA /* JCWaveFormImage */,
+				EFAE154F185A5F75008281EA /* JCWaveFormImageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFAE152D185A5F75008281EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE5472E18611DEA00D9F953 /* poppa-santa-claus.mp3 in Resources */,
+				EFAE153D185A5F75008281EA /* InfoPlist.strings in Resources */,
+				EFAE154B185A5F75008281EA /* Images.xcassets in Resources */,
+				EFAE1543185A5F75008281EA /* Credits.rtf in Resources */,
+				EFAE1567185A5F85008281EA /* example_sound.m4a in Resources */,
+				EFAE1549185A5F75008281EA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAE154E185A5F75008281EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAE155B185A5F75008281EA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFAE152B185A5F75008281EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAE1577185A6034008281EA /* JCWaveFormImage.m in Sources */,
+				EFAE1584185A6AB0008281EA /* Profile.m in Sources */,
+				EFAE153F185A5F75008281EA /* main.m in Sources */,
+				EFAE1580185A6626008281EA /* JCWaveFormImageView.m in Sources */,
+				EFAE1546185A5F75008281EA /* JCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAE154C185A5F75008281EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAE155D185A5F75008281EA /* JCWaveFormImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFAE1555185A5F75008281EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAE152E185A5F75008281EA /* JCWaveFormImage */;
+			targetProxy = EFAE1554185A5F75008281EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFAE153B185A5F75008281EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAE153C185A5F75008281EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFAE1541185A5F75008281EA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAE1542185A5F75008281EA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EFAE1547185A5F75008281EA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAE1548185A5F75008281EA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		EFAE1559185A5F75008281EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAE155A185A5F75008281EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFAE155E185A5F75008281EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EFAE155F185A5F75008281EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EFAE1561185A5F75008281EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JCWaveFormImageDemo/JCWaveFormImage-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/JCWaveFormImageDemo/JCWaveFormImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFAE1562185A5F75008281EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JCWaveFormImageDemo/JCWaveFormImage-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/JCWaveFormImageDemo/JCWaveFormImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EFAE1564185A5F75008281EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JCWaveFormImage.app/Contents/MacOS/JCWaveFormImage";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JCWaveFormImage/JCWaveFormImage-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JCWaveFormImageTests/JCWaveFormImageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EFAE1565185A5F75008281EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JCWaveFormImage.app/Contents/MacOS/JCWaveFormImage";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JCWaveFormImage/JCWaveFormImage-Prefix.pch";
+				INFOPLIST_FILE = "JCWaveFormImageTests/JCWaveFormImageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFAE152A185A5F75008281EA /* Build configuration list for PBXProject "JCWaveFormImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAE155E185A5F75008281EA /* Debug */,
+				EFAE155F185A5F75008281EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAE1560185A5F75008281EA /* Build configuration list for PBXNativeTarget "JCWaveFormImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAE1561185A5F75008281EA /* Debug */,
+				EFAE1562185A5F75008281EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAE1563185A5F75008281EA /* Build configuration list for PBXNativeTarget "JCWaveFormImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAE1564185A5F75008281EA /* Debug */,
+				EFAE1565185A5F75008281EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFAE1527185A5F75008281EA /* Project object */;
+}
